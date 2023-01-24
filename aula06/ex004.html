@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Concatenação, conversão de dados...</title>
+       
+    </head>
+
+    <body>
+
+        <script>
+            // `... ${nome} ... {idade}` : template string (forma mais nova)
+            // x.length: quantidade de caracteres de uma string
+            // x.toUpperCase(): tudo para maiúsculas
+            // x.toLowerCase(): tudo para minúsculas
+            // x.toFixed(2): no Node, põe 2 casas depois do ponto, com números
+            // x.toFixed(2).replace('.', ','): no Node, põe vírgula no lugar do ponto, com números
+            // x.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}): põe na moeda que você escolher
+            var nome = window.prompt('Qual é o seu nome?')
+            document.write(`Olá, ${nome}, seu nome tem ${nome.length} letras.<br/>`)
+            document.write(`Seu nome em maiúsculo é ${nome.toUpperCase()}.<br/>`)
+            document.write(`Seu nome em minúsculo é ${nome.toLowerCase()}.<br/>`)
+            
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Variáveis, concatenação, conversão de dados...</title>
+        <style>
+            body {
+                background-color: blueviolet;
+                color: white;
+                font: normal 20pt Arial;
+            }
+
+            h1 {
+                color: rgba(251, 255, 0, 0.63);
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Olá, mundo!</h1>
+        <p>Me livrei da maldição!</p>
+
+        <script>
+            // (number + number): adição
+            // (string + string): concatenação
+            // Number.parseInt(n): converte para inteiro
+            // Number.parseFloat(n): converte para real
+            // Number(n): já converte sem definir antes
+            // String(n): converte direto para string
+            // n.toString(): converte algo selecionado em string
+            // `... ${nome} ... {idade}` : template string (forma mais nova)
+            // s.length: quantidade de caracteres de uma string
+            // s.toUpperCase(): tudo para maiúsculas
+            // s.toLowerCase(): tudo para minúsculas
+            var n1 = Number(window.prompt('Digite um número: '))
+            var n2 = Number(window.prompt('Digite outro número: '))
+            var s = n1 + n2
+            window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}.`)
+        </script>
+    </body>
+
+</html>
