@@ -13,3 +13,43 @@ Operadores:
 ? , :
 
 teste ? true : false (média >= 7.0 ? Aprovado : Reprovado) - Se a média for maior ou igual a 7, aprovado, se não, reprovado. 
+
+DOM: Document Object Model:
+
+- Árvore DOM (exemplo):
+
+window - location, document, history
+document - html
+html - head, body
+head - meta, title
+body - h1, p1, p2, div
+p2 - strong
+
+DOM: Selecionando por: marca, ID, nome, classe ou seletor.
+
+marca:
+- Para selecionar elementos diferentes, escolha colocando entre[].
+var p1 = window.document.getElementsByTagName('p')[0]
+
+ID:
+- ID é só para 1 elemento (Element).
+var d = window.document.getElementById('msg')
+
+nome:
+var d = window.document.getElementsByTagName('msg')
+
+classe:
+var d = window.document.getElementsByClassName('msg')
+
+seletor (pode ser com class, id): FORMA MAIS ATUAL
+var d = window.document.querySelector('div.msg')
+
+
+
+
+
+
+
+
+
+

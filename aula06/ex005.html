@@ -5,8 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM - JS</title>
+    <style>
+        body {
+            background-color: rgb(68, 140, 199);
+            color: white;
+            font: normal 1.125rem Arial;
+        }
+    </style>
 </head>
 <body>
-    <h1>Iniciando </h1>
+    <!-- DOM: Document Object Model -->
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong> DOM</strong> em JavaScript</p>
+    <div class="msg">Clique em mim</div>
+    <script>
+        // Para selecionar elementos diferentes, escolha colocando entre[]
+        // x.innerText: mostra o conteúdo do elemento selecionado (x).
+        // x.style.color: muda a cor do elemento selecionado (x).
+        // x.style.background: muda a cor do background do elemento selecionado (x).
+        var p1 = window.document.getElementsByTagName('p')[1]
+        var corpo = window.document.body
+        //var d = window.document.getElementById('msg')
+        //var d = window.document.getElementsByTagName('msg')
+        //var d = window.document.getElementsByClassName('msg')
+        var d = window.document.querySelector('div.msg')
+        d.style.background = 'yellow'
+        //window.document.write('Está escrito assim: ' + p1.innerText)
+        //p1.style.color = 'blue'
+        //corpo.style.background = 'black'
+        //window.alert(p1.innerText)
+        //d.style.background = 'green'
+    </script>
 </body>
 </html>
