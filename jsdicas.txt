@@ -14,7 +14,8 @@ Operadores:
 
 teste ? true : false (média >= 7.0 ? Aprovado : Reprovado) - Se a média for maior ou igual a 7, aprovado, se não, reprovado. 
 
-DOM: Document Object Model:
+DOM: Document Object Model, é um facilitador que existe dentro do HTML5
+para dar acesso aos elementos da página diretamente pro JavaScript.
 
 - Árvore DOM (exemplo):
 
@@ -41,7 +42,8 @@ var d = window.document.getElementsByTagName('msg')
 classe:
 var d = window.document.getElementsByClassName('msg')
 
-seletor (pode ser com class, id): FORMA MAIS ATUAL
+FORMA MAIS ATUAL:
+seletor (pode ser com class, id):
 var d = window.document.querySelector('div.msg')
 
 
