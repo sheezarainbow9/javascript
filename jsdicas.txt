@@ -48,7 +48,34 @@ var d = window.document.querySelector('div.msg')
 
 Eventos DOM: Tudo o que pode acontecer com um elemento (div, class...):
 
-- mouseenter, mousemove, mousedown, mouseup, click, mouseout (eventos de mouse);
+- mouseenter, mousemove, mousedown, mouseup, click, mouseout (eventos de mouse)...
+
+Condições em JS:
+
+- Condição simples:
+if(condição) {
+    true
+}
+
+- Condição composta:
+if(condição) {
+    true
+}else{
+    false
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
