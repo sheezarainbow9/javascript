@@ -46,6 +46,9 @@ FORMA MAIS ATUAL:
 seletor (pode ser com class, id):
 var d = window.document.querySelector('div.msg')
 
+Eventos DOM: Tudo o que pode acontecer com um elemento (div, class...):
+
+- mouseenter, mousemove, mousedown, mouseup, click, mouseout (eventos de mouse);
 
 
 
