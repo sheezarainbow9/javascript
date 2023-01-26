@@ -64,7 +64,30 @@ if(condição) {
     false
 }
 
+- Condição aninhada:
+if(condição1) {
+    bloco1
+}else if(condição2) {
+    bloco2
+}else{
+    bloco3
+}
 
+- Condição múltipla (não aplicável para todo tipo de situação):
+switch(expressão) {
+    case valor1:
+    
+    break
+    case valor2:
+
+    break
+    case valor3: ...
+
+    break
+    default:
+
+    break
+}
 
 
 
