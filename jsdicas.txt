@@ -117,10 +117,39 @@ for (var cont = 1; cont <= 6; cont++) {
     console.log(cont);
 }
 
+Variáveis compostas:
 
+let num = [x, y, z]
+- Insere novo elemento no array:
+num.push(n);
+- Comprimento do vetor:
+num.length;
+- Ordena em ordem crescente:
+num.sort();
+- Mostra o vetor correspondente ao índice pedido:
+num[0];
 
+EXEMPLO:
+let valores = [8, 1, 7, 4, 2, 9];
+valores.sort;
 
+for (let pos in valores) {
+    console.log(`A posição ${pos} tem o valor ${valores[pos]}.`);
+}
 
+- Procura o valor do índice dado:
+valores.indexOf(n);
+
+EXEMPLO:
+let num = [5, 8, 2, 9, 3];
+
+let pos = num.indexOf(8);
+// -1 significa que o valor não foi encontrado.
+if (pos == -1) {
+  console.log("O valor não foi encontrado.");
+} else {
+  console.log(`O valor está na posição ${pos}.`);
+}
 
 
 
